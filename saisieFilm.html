@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Films en VOD</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="../vod/style/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+		
+		<fieldset>
+			<h3>Ajout d'un film</h3>
+			
+			<form action="../vod/ajouterFilm.php" method="POST">
+				
+					<label>Informations :</label>
+					</br>
+					</br>
+					
+					<input required type="text" name="nomTitre" placeholder="Saisir le titre du film" />
+					</br>
+					</br>
+					
+					<input required type="text" name="date" placeholder="Saisir l'année du film" />
+					</br>
+					</br>
+					
+					<input required type="text" name="nomRealisateur" placeholder="Saisir le réalisateur du film" />
+					</br>
+					</br>
+					
+					<input type="submit" value="Ajouter" /> 
+					<input type="reset" value="Annuler" />
+					
+					<ul class="navbar">
+						<li><a href="vod.html">Retour à l'acceuil</a></li>
+					</ul>
+			</form>
+		
+		</fieldset>
+		
+	</body>
+	
+</html>
